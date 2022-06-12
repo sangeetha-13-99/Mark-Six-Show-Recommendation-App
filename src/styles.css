@@ -48,7 +48,6 @@ padding:10px;
 }
 
 .genreList{
-  margin:50px;
   display: flex;
   flex-wrap: wrap;
 }
