@@ -1,0 +1,67 @@
+body{
+margin:0;
+background-color:#18181b;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+.heading{
+color:#115e59;
+padding:10px;
+}
+
+.aboutApp{
+  color:white;
+}
+
+.genreButtons{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+   align-items: center; 
+   margin:20px;
+}
+.spanBox{
+  display: flex;
+  justify-content:space-around;
+}
+
+.genreButton,.genreKnowMore{
+  outline:none;
+  padding:8px 20px;
+  border-radius:2px;
+  border:1px solid #115e59;
+  background-color: #115e5923;
+  color:white;
+  font-size: 15px;
+}
+.genreButton:hover,.genreKnowMore:hover{
+  border:1px solid white;
+}
+.selected{
+  color:#115e59;
+  background-color: rgb(255, 255, 255);
+  border:2px solid #115e59;
+  font-weight:bold;
+}
+
+.genreList{
+  margin:50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.genreItemBox{
+  color:white;
+  padding:20px;
+  border-radius:2px;
+  background-color:#115e5923 ;
+  width:300px;
+  margin:10px auto;
+}
+.genreImage{
+  /* margin:auto; */
+width:300px;
+height:400px;
+}
