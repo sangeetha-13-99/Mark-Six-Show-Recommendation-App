@@ -8,6 +8,6 @@ In <strong>show recommendation app</strong> i have provided ratings to various s
 </div>
 This App development done using react, html and pure css. useState from react hooks is used to update the dom with type of genre user selected.it is developed in codesanbox.
 <div>
-    Do check out the live link of this app:  <a href="https://csb-w0oxqc.netlify.app/">Show-Recommendation-App</a>
+    Do check out the live link of this app:  <a href="https://csb-21q55e.netlify.app/">Show-Recommendation-App</a>
 </div>
 
