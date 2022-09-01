@@ -31,10 +31,8 @@ export default function Main(){
         console.log(element.classList.remove('selected'))
         }
       })
-     
       return event.target.textContent
     })
-    event.target.classList.add('selected')
   }
 
 return (
@@ -44,7 +42,7 @@ return (
       <div className="genreButtons">
         {Object.keys(genreObjects).map(genre=>{
           console.log(genre)
-          return <button key={genre} class="genreButton" onClick={clickhandler}>{genre}</button>
+          return <button key={genre} class={"genreButton "+(genre===genreType ? 'selected':'')} onClick={clickhandler}>{genre}</button>
         })}
       </div>
       <div className="genreList">
